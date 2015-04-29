@@ -1,0 +1,45 @@
+h2:first-letter {
+	display:block;
+	float:left;
+	font-family:Georgia;
+	font-size: 250%;
+	font-weight: bold;
+	line-height: 90%;
+
+}
+html{
+    font-family: Arial;
+    background-image: url("http://th01.deviantart.net/fs70/PRE/f/2011/340/4/a/dark_city_by_joakimolofsson-d4ibtdk.jpg");
+    
+}
+}
+ul {
+    list-style-type: none;
+    margin:
+    padding: 0;
+    font-family: Arial
+    
+}
+.boxed {
+  border: 1px solid yellow
+}
+
+li {
+    display: inline;
+}
+h2{
+    font-family:Georgia;
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
+*{
+    color: white;
+    font-size: 20px;
+    
+}
+p{
+    font-size:30px
+    font-family: Arial;
+}

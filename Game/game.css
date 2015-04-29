@@ -1,0 +1,21 @@
+table {
+    background-image: url(http://i.imgur.com/12VLjDx.png)
+}
+
+td {
+    border:1px solid blue;
+    width:25px;
+    height:28px;
+    text-align:center;
+}
+ Button{
+width: 467px;
+}
+
+#exit{
+  border:20px;
+  border-radius:20px;
+}
+/*Coin: http://i.imgur.com/R6ikFuG.png*/
+
+/**/

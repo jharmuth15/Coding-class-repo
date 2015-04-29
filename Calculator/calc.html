@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="calc.css">
+	<title>Catculator</title>
+</head>
+<body>
+<div>
+  <table id="title">
+    <tr>
+      <td id="titletext">Catculator Fun Time</td>
+    </tr>
+  </table>
+</div>
+<div id="calculator">
+<input type ="text" name="Number1" style="width:50px;" id="Number1">
+  <select id="DropdownMenu1">
+    <option value="+">Addition</option>
+    <option value="-">Subtraction</option>
+    <option value="x">Multiplication</option>
+    <option value="Ã·">Division</option>
+    <option value="^">Exponent</option>
+    <option value="$">Square Root</option>
+  </select>
+<input type ="text" name="Number2" style="width:50px;" id="Number2">
+
+<input type="button" value="Catculate" id="submitButton" />
+
+    <p>The anser is: <span id="Answer"></span></p>
+</div>
+<script src="calc.js" ></script>
+</body>
+</html>

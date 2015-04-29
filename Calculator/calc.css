@@ -1,0 +1,35 @@
+body {
+  background-image: url("http://i.imgur.com/wvunc.jpg");
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: white;
+}
+#calculator {
+  padding-top:5px;
+  padding-left:330px;
+  padding-bottom:5px;
+  padding-right:5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 50%;
+}
+#titletext {
+  text-align: center;
+  font-size: 50px;
+}
+#submitButton {
+  font-size: 15px !important;
+  background-color: #353E7F;
+  font-weight: bold;
+  text-shadow: 1px 1px #353E7F;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #353E7F;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}

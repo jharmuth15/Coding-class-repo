@@ -1,0 +1,35 @@
+body {
+    background-image: url("http://cdn.awwni.me/p1um.jpg");
+    font-family: Lucida Console;
+}
+#table1 {
+    margin-left:520px;
+    margin-top:300px;
+    background-color:white;
+    table-layout:fixed;
+    border: 1px solid blue;
+}
+#The {
+    width:45px;
+    height:50px;
+    text-align:left;
+}
+td {
+    text-align:center;
+}
+#CityName{
+    width:70px;
+    height:50px;
+}
+#Adjective{
+    width:70px;
+    height:50px;
+}
+#Noun{
+    width:75px;
+    height:50px;
+}
+#Activation {
+    position: relative;
+    left: 580px;
+}
