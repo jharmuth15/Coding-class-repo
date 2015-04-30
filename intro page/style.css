@@ -10,7 +10,7 @@ h2:first-letter {
 html{
     font-family: Arial;
     background-image: url("http://th01.deviantart.net/fs70/PRE/f/2011/340/4/a/dark_city_by_joakimolofsson-d4ibtdk.jpg");
-    
+    background-size: 100%;
 }
 }
 ul {
@@ -26,6 +26,8 @@ ul {
 
 li {
     display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     font-family:Georgia;

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel='stylesheet' href='vindinium.css'/>  <title>Vindinium</title>
+<link rel='stylesheet' href='vindinium.css'/>  
+    <title>Vindinium</title>
 </head>
   <h3>Welcome to the land of Vindinium!</h3>
 <body>
@@ -12,7 +13,8 @@ Making their way in the dangerous woods <br>
 Slashing goblins and stealing gold mines <br>
 And looking for a tavern where to drink away their gold <br>
   </div>
-</p>
+    </p>
+   
   <p>
     Vindinium is an Artificial Intelligence programming challenge. You have to take the control of a legendary hero using the programming language of your choice. You will fight with other AI for a predetermined number of turns and the hero with the greatest amount of gold will win.</p>
   <p> There are 4 characters along with randomly generated mines and taverns.</p>
@@ -30,7 +32,14 @@ And looking for a tavern where to drink away their gold <br>
     <li>
 Steps into a tavern, he stays in place and orders a beer. The hero pays 2 gold and receive 50HP. Note than HP can never exceed 100.
     </li>
-    <br>
+    
   </p>
+    <h3>What does my bot do?</h3>
+    <p> My bot does the following: </p>
+    <li>When there are enemy mines that aren't owned it goes for those first.</li>
+    <li>Once there are no more mines that aren't owned, it goes for mines that are owned by enemies.</li>
+    <li>Once health is below 30, it goes to the tavern to refill</li>
+    <li>However, all of these are ignored when and enemy has a health below 32.  It then follows that bot and attempts to kill it.</li>
+ 
   </body>
 </html>
